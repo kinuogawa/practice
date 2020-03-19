@@ -1,0 +1,517 @@
+/* 共通CSS */
+body {
+    background: #ffffff;
+    color: #333333;
+    font-size: 16px;
+    line-height: 2rem;
+    font-weight: 300;
+    font-family: 'Noto Sans JP', "メイリオ", sans-serif;
+}
+
+/* テキストサイズ中 */
+.txtm {
+    font-size: 1.5rem;
+}
+
+/* テキストサイズ大 */
+.txtl {
+    font-size: 2rem;
+}
+
+/* 文字の中央寄せ */
+.text-center {
+    text-align: center;
+}
+
+/* 文字の右端寄せ */
+.text-right {
+    text-align: right;
+}
+
+/* PC、タブレット用の改行をON */
+.br-pc {
+    display: block;
+}
+
+/* ********* */
+
+/* TOP画像 PC用 */
+.top-pc {
+    display: block;
+    max-width: 100%;
+    margin: auto;
+    display: block;
+}
+
+.top-pc img {
+    max-width: 100%;
+    margin: auto;
+    display: block;
+}
+
+/* TOP画像 スマホ用 */
+.top-sp {
+    display: none;
+}
+
+/* TOP文 */
+.top-sentence {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+/* こだわりの食材 タイトル */
+.commitment-food-title {
+    text-align: right;
+    padding-right: 2rem;
+    padding-top: 3rem;
+}
+
+/* こだわりの食材 画像 */
+.commitment-food-img img {
+    width: 60%;
+}
+
+/* こだわりの食材 文 */
+.commitment-food-sentence {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+/* テイクアウト&デリバリー タイトル */
+.takeout-delivery-title {
+    padding-left: 3rem;
+    padding-top: 3rem;
+}
+
+/* テイクアウト&デリバリー 画像 */
+.takeout-delivery-img img {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+}
+
+/* テイクアウト&デリバリー インデント */
+.delivery-indent {
+    text-indent: 3rem;
+}
+
+/* テイクアウト&デリバリー 文 */
+.takeout-delivery-sentence {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+/* 新しい働き方の提案 タイトル */
+.new-working-title {
+    text-align: right;
+    padding-right: 2rem;
+    padding-top: 3rem;
+}
+
+/* 新しい働き方の提案 画像 */
+.new-working-img img {
+    width: 60%;
+}
+
+/* 新しい働き方の提案 文 */
+.new-working-sentence {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+/* よりあいキッチン タイトル */
+.union-kitchen-title {
+    padding-left: 3rem;
+    padding-top: 3rem;
+}
+
+/* よりあいキッチン 画像 */
+.union-kitchen-img img {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+}
+
+/* よりあいキッチン 文 */
+.union-kitchen-sentence {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+/* メニュー */
+.menu {
+    margin-bottom: 10rem;
+}
+
+/* メニュー タイトル */
+.menu-title {
+    text-align: right;
+    padding-right: 3rem;
+    padding-top: 3rem;
+}
+
+/* メニュー 画像 */
+.menu-img img {
+    width: 60%;
+}
+
+/* 日替わりランチ タイトル */
+.lunch-title {
+    margin-top: 6rem;
+}
+
+/* 日替わりランチ 画像１ */
+.lunch-img-1 img {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+}
+
+/* 日替わりランチ 画像２ */
+.lunch-img-2 img {
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+/* 日替わりランチ 画像３ */
+.lunch-img-3 img {
+    width: 70%;
+    display: block;
+    margin-right: auto;
+}
+
+/* おばんざい タイトル */
+.obanzai-title {
+    margin-top: 4rem;
+}
+
+/* おばんざい 画像１ */
+.obanzai-img-1 img {
+    width: 70%;
+    display: block;
+    margin-left: auto;
+}
+
+/* おばんざい 画像２ */
+.obanzai-img-2 img {
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+/* おばんざい 画像３ */
+.obanzai-img-3 img {
+    width: 70%;
+    display: block;
+    margin-right: auto;
+}
+
+/* フッター */
+.footer {
+    display: block;
+    background-color: #707070;
+}
+
+/* フッター 店舗情報 */
+.footer-info {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+    width: 80%;
+    margin-left: auto;
+    line-height: 1.5rem;
+}
+
+/* フッター 店舗情報 インデント*/
+.footer-info-indent {
+    text-indent: 5rem;
+}
+
+/* フッター 画像 */
+.footer-img {
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+/* フッター 画像 ロゴ */
+.footer-img-logo img {
+    height: 150px;
+    display: block;
+    margin-top: 10rem;
+    margin-left: auto;
+    margin-right: 3rem;
+}
+
+/* フッター 画像 マップ */
+.footer-img-map img {
+    height: 150px;
+    display: block;
+    margin-top: 10rem;
+}
+
+/* フッター画像を縦並びにする */
+@media (max-width: 1270px) {
+    .footer-info {
+        width: 90%;
+    }
+
+    /* フッター 画像 */
+    .footer-img {
+        display: block;
+    }
+
+    /* フッター 画像 マップ */
+    .footer-img-logo img {
+        margin-top: 6rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+   
+    /* フッター 画像 マップ */
+    .footer-img-map img {
+        margin-top: 1rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* タブレット、スマホ用 */
+@media (max-width: 992px) {
+    body {
+        font-size: 14px;
+        line-height: 1.5rem;
+    }
+
+    /* TOP画像 PC用 */
+    .top-pc {
+        display: none;
+    }
+    
+    /* TOP画像 スマホ用 */
+    .top-sp {
+        display: block;
+    }
+
+    .top-sp img {
+        max-width: 100%;
+        margin: auto;
+        display: block;
+    }
+
+    /* TOP文 */
+    .top-sentence {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 4rem;
+        margin-bottom: 6rem;
+    }
+
+    /* こだわりの食材 タイトル */
+    .commitment-food-title {
+        text-align: center;
+        padding-right: 0;
+        padding-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    /* こだわりの食材 画像 */
+    .commitment-food-img img {
+        width: 70%;
+        display: block;
+        margin: auto;
+    }
+
+    /* こだわりの食材 文 */
+    .commitment-food-sentence {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 4rem;
+        margin-bottom: 6rem;
+    }
+
+    /* テイクアウト&デリバリー 画像と文字の位置を逆にする */
+    .takeout-delivery .row {
+        flex-direction: column-reverse;
+    }
+
+    /* テイクアウト&デリバリー タイトル */
+    .takeout-delivery-title {
+        text-align: center;
+        padding-left: 0;
+        padding-top: 1rem;
+        margin-bottom: 2rem;
+        line-height: 2rem;
+    }
+
+    /* テイクアウト&デリバリー 画像 */
+    .takeout-delivery-img img {
+        width: 70%;
+        display: block;
+        margin: auto;
+    }
+
+    /* テイクアウト&デリバリー 文 */
+    .takeout-delivery-sentence {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 4rem;
+        margin-bottom: 6rem;
+    }
+
+    /* 新しい働き方の提案 タイトル */
+    .new-working-title {
+        text-align: center;
+        padding-right: 0;
+        padding-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    /* 新しい働き方の提案 画像 */
+    .new-working-img img {
+        width: 70%;
+        display: block;
+        margin: auto;
+    }
+
+    /* 新しい働き方の提案 文 */
+    .new-working-sentence {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 4rem;
+        margin-bottom: 6rem;
+    }
+
+    /* よりあいキッチン 画像と文字の位置を逆にする */
+    .union-kitchen .row {
+        flex-direction: column-reverse;
+    }
+
+    /* よりあいキッチン タイトル */
+    .union-kitchen-title {
+        text-align: center;
+        padding-left: 0;
+        padding-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    /* よりあいキッチン 画像 */
+    .union-kitchen-img img {
+        width: 70%;
+        display: block;
+        margin: auto;
+    }
+
+    /* よりあいキッチン 文 */
+    .union-kitchen-sentence {
+        width: 90%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 4rem;
+        margin-bottom: 6rem;
+    }
+
+    /* メニュー */
+    .menu {
+        margin-bottom: 5rem;
+    }
+    
+    /* メニュー タイトル */
+    .menu-title {
+        text-align: center;
+        padding-right: 0;
+        padding-top: 3rem;
+        margin-bottom: 2rem;
+    }
+
+    /* メニュー 画像 */
+    .menu-img img {
+        width: 70%;
+        display: block;
+        margin: auto;
+    }
+    
+    /* 日替わりランチ 画像１ */
+    .lunch-img-1 img {
+        width: 60%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 2rem;
+    }
+    
+    /* 日替わりランチ 画像２ */
+    .lunch-img-2 img {
+        width: 60%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 2rem;
+    }
+
+    /* 日替わりランチ 画像３ */
+    .lunch-img-3 img {
+        width: 60%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 2rem;
+    }
+    
+    /* おばんざい 画像１ */
+    .obanzai-img-1 img {
+        width: 60%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 2rem;
+    }
+    
+    /* おばんざい 画像２ */
+    .obanzai-img-2 img {
+        width: 60%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 2rem;
+    }
+    
+    /* おばんざい 画像３ */
+    .obanzai-img-3 img {
+        width: 60%;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 2rem;
+    }
+
+    /* フッター 店舗情報 */
+    .footer-info {
+        width: 90%;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+        margin: auto;
+    }
+
+    /* フッター 店舗情報 インデント*/
+    .footer-info-indent {
+        text-indent: 4rem;
+    }
+
+    /* フッター 画像 ロゴ */
+    .footer-img-logo img {
+        margin-top: 0;
+    }
+
+    /* フッター 画像 マップ */
+    .footer-img-map img {
+        margin-bottom: 2rem;
+    }
+}
+
+/* スマホ用 */
+@media (max-width: 576px) {
+    /* PC、タブレット用の改行をOFF */
+    .br-pc {
+        display: none;
+    }
+}
