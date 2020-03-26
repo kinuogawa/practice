@@ -5,7 +5,7 @@
 ※コードは綺麗に整形済み  
   
 今回模写するサイトはこちら↓  
-http://tubutubu.starfree.jp/
+http://tubutubu.starfree.jp/  
 ※諸事情により以前からURLが変わりました
 
 ### ▼01.テンプレート  
